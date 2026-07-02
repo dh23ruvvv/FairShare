@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/dhruv/Documents/antigravity/peaceful-planck/FairShare/build/FairShareTests[1]_tests.cmake")
-  include("C:/Users/dhruv/Documents/antigravity/peaceful-planck/FairShare/build/FairShareTests[1]_tests.cmake")
-else()
-  add_test(FairShareTests_NOT_BUILT FairShareTests_NOT_BUILT)
-endif()

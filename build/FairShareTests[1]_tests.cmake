@@ -1,5 +1,0 @@
-add_test([=[FairShareTest.EqualSplitCalculation]=]  C:/Users/dhruv/Documents/antigravity/peaceful-planck/FairShare/build/FairShareTests.exe [==[--gtest_filter=FairShareTest.EqualSplitCalculation]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[FairShareTest.EqualSplitCalculation]=]  PROPERTIES WORKING_DIRECTORY C:/Users/dhruv/Documents/antigravity/peaceful-planck/FairShare/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[FairShareTest.PercentSplitCalculation]=]  C:/Users/dhruv/Documents/antigravity/peaceful-planck/FairShare/build/FairShareTests.exe [==[--gtest_filter=FairShareTest.PercentSplitCalculation]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[FairShareTest.PercentSplitCalculation]=]  PROPERTIES WORKING_DIRECTORY C:/Users/dhruv/Documents/antigravity/peaceful-planck/FairShare/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  FairShareTests_TESTS FairShareTest.EqualSplitCalculation FairShareTest.PercentSplitCalculation)
