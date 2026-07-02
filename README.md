@@ -23,18 +23,6 @@ cmake ..
 cmake --build .
 ```
 
-## Running Automated Tests
-
-The project includes an automated test suite powered by **Google Test** to verify the integrity of the math and algorithms. After building the project, you can run the tests using:
-
-```bash
-# On Windows
-.\build\FairShareTests.exe
-
-# On Linux/Mac
-./build/FairShareTests
-```
-
 ## Running the Application
 
 Execute the built binary from the terminal. 
