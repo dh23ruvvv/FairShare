@@ -10,6 +10,7 @@ class FairShareManager {
 
 public:
     void addUser(int id, const std::string& name);
+    void removeUser(int id);
     void addExpense(const Expense& e);
     void showBalances() const;
     void simplifyDebts();

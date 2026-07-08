@@ -22,3 +22,7 @@ int Expense::getPayerId() const {
 double Expense::getTotalAmount() const {
     return totalAmount;
 }
+
+std::string Expense::getDescription() const {
+    return description;
+}

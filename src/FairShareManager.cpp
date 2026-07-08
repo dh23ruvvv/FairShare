@@ -9,6 +9,10 @@ void FairShareManager::addUser(int id, const std::string& name) {
     ledger.addUser(User(id, name));
 }
 
+void FairShareManager::removeUser(int id) {
+    ledger.removeUser(id);
+}
+
 void FairShareManager::addExpense(const Expense& e) {
     ledger.recordExpense(e);
     auto shares = e.computeShares();

@@ -17,4 +17,5 @@ public:
     std::map<int, double> computeShares() const;
     int getPayerId() const;
     double getTotalAmount() const;
+    std::string getDescription() const;
 };

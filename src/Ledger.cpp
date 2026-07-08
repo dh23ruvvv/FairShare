@@ -5,6 +5,17 @@ void Ledger::addUser(const User& u) {
     users.insert({u.getId(), u});
 }
 
+void Ledger::removeUser(int id) {
+    users.erase(id);
+    for (auto it = debts.begin(); it != debts.end(); ) {
+        if (it->first.first == id || it->first.second == id) {
+            it = debts.erase(it);
+        } else {
+            ++it;
+        }
+    }
+}
+
 void Ledger::recordExpense(const Expense& e) {
     expenses.push_back(e);
 }

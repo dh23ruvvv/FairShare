@@ -14,6 +14,7 @@ class Ledger {
 
 public:
     void addUser(const User& u);
+    void removeUser(int id);
     void recordExpense(const Expense& e);
     void updateDebt(int debtorId, int creditorId, double amount);
     std::vector<std::tuple<int, int, double>> getAllDebts() const;
